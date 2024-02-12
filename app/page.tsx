@@ -74,8 +74,16 @@ export default function Home() {
             renderData={handleRenderData}
             active={bodyName}
           />
+
           <div className="w-full rounded-3xl bg-zinc-950">
             {handleBodyRender[bodyName]}
+            <div className="container overflow-hidden rounded-b-2xl bg-zinc-900">
+              <div className="container">
+                <p className="text-center py-6 text-gray-lite dark:text-slate-400 ">
+                  © 2024 All Rights Reserved by ib-themes.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

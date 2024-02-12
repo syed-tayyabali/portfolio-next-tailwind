@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-[url('/bgtwo.jpg')]">
+      <body className="bg-[url('/bgtwo.jpg')] bg-repeat-round">
         <Header />
         {children}
       </body>
